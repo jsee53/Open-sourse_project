@@ -1,4 +1,4 @@
-body, html { 
+html, body{ 
     margin: 0;
     padding: 0;
 }
@@ -7,11 +7,11 @@ h1, p {
     margin: 0;
 }
 
-#main {
-    background;
-    background-image: url('배경사진.jpg') no-repeat;
+#main{
+    background : url('https://pixabay.com/get/g7c22c7a3974718818caa5795f25d20a8638f85dde43405ebba063309deb72939b5a0f25a674ec31a8a8c95d88af6ab0d0e6b5aec127b49f8e7094666aba78e4a404bd23f232f25b671f9aeded9b7d6a5_1920.jpg');
+    background-repeat : no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     width: 100vw;
     height: 100vh;
 }
